@@ -13,6 +13,8 @@ pip install PyOpenGL
 pip install numpy
 pip install PyQt5
 ```
+Run to test :)
+
 ## Code Explanation
  
 This simulation runs the following equation: ```x = yy*x * (c - x)```, which can be found on the ```Update``` function:
