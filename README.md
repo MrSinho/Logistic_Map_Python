@@ -48,7 +48,7 @@ class Simulation(object):
         self.window.setCameraPosition(distance=30, elevation=100) #set the camera position
         self.window.show() #show the window
 ```
-Here you can change the initial values:
+You can change the initial values from the instance:
 ```python
 if __name__ == "__main__":
                     # x    yy  z  c  how
