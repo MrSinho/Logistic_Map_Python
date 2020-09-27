@@ -50,8 +50,6 @@ class Simulation(object):
         
     def draw(self):
         if self.how == "1":
-            #try: self.window.removeItem(self._point_mesh)
-            #except Exception: pass
             self._point_mesh = gl.GLMeshItem(vertexes = self.point_mesh, faces = self.faces, smooth=False, drawFaces=False, drawEdges=True, edgeColor=(1,1,1,1))
             self._point_mesh.scale(.001, .001, .001)
             self._point_mesh.translate(self.newpoint[0], self.newpoint[1], self.newpoint[2])
@@ -78,5 +76,6 @@ class Simulation(object):
         self.start()
 
 if __name__ == "__main__":
+                    # x    yy  z  c  how
     sim = Simulation(0.5, 3.0, 0, 1, "1")
     sim.animation()
