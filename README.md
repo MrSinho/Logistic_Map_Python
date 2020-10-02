@@ -55,7 +55,7 @@ if __name__ == "__main__":
     sim = Simulation(0.5, 3.0, 0, 1, "1")
     sim.animation()
 ```
-If self.how is equal to "1", then it'll draw some points, if it's equal to "2", it'll draw some edges:
+If ```self.how``` is equal to ```"1"```, then it'll draw some points, if it's equal to ```"2"```, it'll draw some edges:
 ![](Images/Edges_Long.PNG) 
 
 Made by [Sinho Graphics](https://instagram.com/sinho_graphics)
